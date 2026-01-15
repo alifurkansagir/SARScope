@@ -1,0 +1,274 @@
+2026-01-04 05:24:45 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:24:45 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:24:45 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:24:45 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:27:02 - sarscope - [32mINFO[0m - Adding product to watchlist...
+2026-01-04 05:33:51 - sarscope - [32mINFO[0m - Product 'Bosch GSB 180-LI Matkap' added with ID: 1
+2026-01-04 05:34:52 - sarscope - [32mINFO[0m - Competitor URL added for product 1: https://www.koctas.com.tr/bosch-gsb-180-li-darbeli-akulu-delme/p/5000617421?shop=2221&utm_source=akakce&utm_medium=cpc&utm_campaign=standart&v=1.14.9
+2026-01-04 05:35:29 - sarscope - [32mINFO[0m - Product 'Bosch GSB 180-LI Matkap' added successfully
+2026-01-04 05:35:39 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:35:39 - sarscope - DEBUG - Applying delay: 6.62 seconds
+2026-01-04 05:35:45 - sarscope - DEBUG - Fetching URL: https://www.koctas.com.tr/bosch-gsb-180-li-darbeli-akulu-delme/p/5000617421?shop=2221&utm_source=akakce&utm_medium=cpc&utm_campaign=standart&v=1.14.9
+2026-01-04 05:35:46 - sarscope - [32mINFO[0m - Successfully fetched: https://www.koctas.com.tr/bosch-gsb-180-li-darbeli-akulu-delme/p/5000617421?shop=2221&utm_source=akakce&utm_medium=cpc&utm_campaign=standart&v=1.14.9 (Status: 200)
+2026-01-04 05:35:46 - sarscope - [33mWARNING[0m - Could not extract price from: 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+Bosch Bosch Gsb 180-li Da...
+2026-01-04 05:35:46 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:35:46 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:38:12 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:38:12 - sarscope - [32mINFO[0m - Scraper session closed
+2026-01-04 05:38:12 - sarscope - [32mINFO[0m - Scraper session closed
+2026-01-04 05:38:12 - sarscope - [32mINFO[0m - Trend Hunter closed
+2026-01-04 05:38:12 - sarscope - [32mINFO[0m - SarScope shutdown complete
+2026-01-04 05:38:15 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:38:15 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:38:15 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:38:15 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:38:23 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:38:26 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:38:26 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:38:44 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:38:44 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:38:49 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:38:49 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:38:49 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:38:49 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:38:53 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:38:57 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:38:57 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:40:06 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:40:06 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:43:49 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:43:49 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:43:49 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:43:49 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:43:53 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:43:57 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:43:57 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:45:01 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:45:01 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:45:48 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:45:48 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:45:48 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:45:48 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:45:49 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:45:52 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:45:52 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:52:08 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:52:08 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:52:10 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:52:10 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:52:10 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:52:10 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:52:11 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:52:23 - sarscope - DEBUG - Competitor 1 updated: price=980.1, status=active
+2026-01-04 05:52:23 - sarscope - DEBUG - Product 1: min=$980.10, max=$980.10, avg=$980.10
+2026-01-04 05:52:23 - sarscope - [33mWARNING[0m - Product 1: Suggested price $979.10 below floor limit $7000.00
+2026-01-04 05:52:23 - sarscope - [32mINFO[0m - Opportunity identified: PricingOpportunity(product='Bosch GSB 180-LI Matkap', current=$7400.00, suggested=$7000.00, reason='FLOOR_LIMIT_REACHED')
+2026-01-04 05:52:23 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:56:26 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:56:26 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:56:34 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:56:34 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:56:34 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:56:34 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:56:36 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:56:45 - sarscope - DEBUG - Competitor 1 updated: price=None, status=error
+2026-01-04 05:56:45 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:57:48 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 05:57:48 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 05:57:50 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 05:57:50 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 05:57:50 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 05:57:50 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 05:57:51 - sarscope - [32mINFO[0m - Starting Price Patrol...
+2026-01-04 05:57:58 - sarscope - DEBUG - Competitor 1 updated: price=8100.0, status=active
+2026-01-04 05:57:58 - sarscope - DEBUG - Product 1: min=$8100.00, max=$8100.00, avg=$8100.00
+2026-01-04 05:57:58 - sarscope - [32mINFO[0m - Price Patrol completed
+2026-01-04 05:59:17 - sarscope - [32mINFO[0m - Starting Trend Hunter...
+2026-01-04 05:59:48 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/akulu-vidalama-makineleri-c-13003090?siralama=coksatan
+2026-01-04 05:59:48 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'fetch_best_sellers'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 317, in run
+    self.run_trend_hunter()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 142, in run_trend_hunter
+    scraped_products = self.trend_hunter.scan_category(category_url)
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/core/trend_hunter.py", line 35, in scan_category
+    return self.scraper.fetch_best_sellers(url)
+AttributeError: 'SarScopeScraper' object has no attribute 'fetch_best_sellers'
+2026-01-04 06:00:51 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 06:00:51 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 06:00:51 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 06:00:51 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 06:00:53 - sarscope - [32mINFO[0m - Starting Trend Hunter...
+2026-01-04 06:01:22 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/akulu-vidalama-makineleri-c-13003090?siralama=coksatan
+2026-01-04 06:02:48 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 06:02:48 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 06:02:53 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 06:02:53 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 06:02:53 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 06:02:53 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 06:02:55 - sarscope - [32mINFO[0m - Starting Trend Hunter...
+2026-01-04 06:03:09 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/akulu-vidalama-makineleri-c-13003090?siralama=coksatan
+2026-01-04 06:04:19 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 06:04:19 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-04 06:04:22 - sarscope - [32mINFO[0m - Database initialized successfully
+2026-01-04 06:04:22 - sarscope - [32mINFO[0m - Pricing Engine initialized
+2026-01-04 06:04:22 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-04 06:04:22 - sarscope - [32mINFO[0m - SAR-SCOPE v1.0.0 initialized
+2026-01-04 06:04:24 - sarscope - [32mINFO[0m - Starting Trend Hunter...
+2026-01-04 06:04:41 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/akulu-vidalama-makineleri-c-13003090?siralama=coksatan
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - Matching 19 scraped products against 1 existing
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Kraftixx By Einhell Kx-Ss 18 Li Akülü Dekupaj Testere 2x3 Amper 4514025S3': Bosch GSB 180-LI Matkap (28%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Kraftixx By Einhell Kx-Ss 18 Li Akülü Dekupaj Testere 2x3 Amper 4514025S3 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'BOSCH PST 650 DEKUPAJ TESTERESİ': Bosch GSB 180-LI Matkap (41%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: BOSCH PST 650 DEKUPAJ TESTERESİ (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell Dekupaj Testere TC-JS 80/1 (550 W, devir sayısı 1000-3000 d/d, devir kontrol elektroniği, 4 kademeli sarkaç hareketi, toz emiş, aletsiz testere bıçağı değişimi) - 4321145': Bosch GSB 180-LI Matkap (18%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell Dekupaj Testere TC-JS 80/1 (550 W, devir sayısı 1000-3000 d/d, devir kontrol elektroniği, 4 kademeli sarkaç hareketi, toz emiş, aletsiz testere bıçağı değişimi) - 4321145 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell TE-JS 18 Li - Solo, Akülü Dekupaj Testere (Akü ve şarj cihazı dahil değildir)': Bosch GSB 180-LI Matkap (26%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell TE-JS 18 Li - Solo, Akülü Dekupaj Testere (Akü ve şarj cihazı dahil değildir) (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell Tc-Js 80/1 Kit, Dekupaj Testere': Bosch GSB 180-LI Matkap (36%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell Tc-Js 80/1 Kit, Dekupaj Testere (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Assur 800 W Devir Ayarlı Dekupaj Testere Makinası': Bosch GSB 180-LI Matkap (36%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Assur 800 W Devir Ayarlı Dekupaj Testere Makinası (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Kraftixx By Einhell Kx-Ss 18 Li Akülü Dekupaj Testere 1X3A 4514025S2': Bosch GSB 180-LI Matkap (29%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Kraftixx By Einhell Kx-Ss 18 Li Akülü Dekupaj Testere 1X3A 4514025S2 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Bosch Gst 8000 E Dekupaj Testere 710W': Bosch GSB 180-LI Matkap (47%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Bosch Gst 8000 E Dekupaj Testere 710W (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Hyundai 78126 Dekupaj Testere 400W': Bosch GSB 180-LI Matkap (25%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Hyundai 78126 Dekupaj Testere 400W (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell TC-JS 18 Lİ Solo Akülü Dekupaj Testere 4321209 18 V Güç Özellikleri ile Hassas Kesim': Bosch GSB 180-LI Matkap (28%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell TC-JS 18 Lİ Solo Akülü Dekupaj Testere 4321209 18 V Güç Özellikleri ile Hassas Kesim (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Assur 550W Devir Ayarlı Dekupaj Testere Makinesi': Bosch GSB 180-LI Matkap (31%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Assur 550W Devir Ayarlı Dekupaj Testere Makinesi (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell Dekupaj Testere TC-JS 60/1 (düşük titreşim, devir kontrol elektroniği, aletsiz testere bıçağı değişimi, 45° açıya kadar kesim için açılı testere ayağı) - 4321135': Bosch GSB 180-LI Matkap (16%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell Dekupaj Testere TC-JS 60/1 (düşük titreşim, devir kontrol elektroniği, aletsiz testere bıçağı değişimi, 45° açıya kadar kesim için açılı testere ayağı) - 4321135 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell Dekupaj Testere TC-JS 85 (620 W, 20 mm kesme yüksekliği, ahşapta 85 mm, çelikte 8 mm kesim derinliği, maksimum 3000 d/d, toz üfleme fonksiyonu, paralel durdurucu) - 4321140': Bosch GSB 180-LI Matkap (16%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell Dekupaj Testere TC-JS 85 (620 W, 20 mm kesme yüksekliği, ahşapta 85 mm, çelikte 8 mm kesim derinliği, maksimum 3000 d/d, toz üfleme fonksiyonu, paralel durdurucu) - 4321140 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Attlas ECO D-400 Dekupaj Testere 400 W - A0105008': Bosch GSB 180-LI Matkap (24%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Attlas ECO D-400 Dekupaj Testere 400 W - A0105008 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Cat DX5310 550WATT Profesyonel Devir Ayarlı Dekupaj Testere + DA06901 10 Parça Testere Ucu': Bosch GSB 180-LI Matkap (22%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Cat DX5310 550WATT Profesyonel Devir Ayarlı Dekupaj Testere + DA06901 10 Parça Testere Ucu (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell TE-JS 18/80 Li, Akülü Dekupaj Testere Seti (2,5 Ah starter kit dahildir)': Bosch GSB 180-LI Matkap (27%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell TE-JS 18/80 Li, Akülü Dekupaj Testere Seti (2,5 Ah starter kit dahildir) (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Kraftixx By Einhell Kx-Ss 18 Li Solo Akülü Dekupaj Testere (Akü ve Şarj Cihazı Hariç) 4514025': Bosch GSB 180-LI Matkap (29%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Kraftixx By Einhell Kx-Ss 18 Li Solo Akülü Dekupaj Testere (Akü ve Şarj Cihazı Hariç) 4514025 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Hyundai 78203 Dekupaj Testere 600W': Bosch GSB 180-LI Matkap (25%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Hyundai 78203 Dekupaj Testere 600W (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - DEBUG - Fuzzy match for 'Einhell Dekupaj Testere TE-JS 100': Bosch GSB 180-LI Matkap (32%)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - New opportunity identified: Einhell Dekupaj Testere TE-JS 100 (rank #999, velocity=low)
+2026-01-04 06:04:50 - sarscope - [32mINFO[0m - Trend Hunter completed
+2026-01-04 06:37:26 - sarscope - [32mINFO[0m - Cleaning up resources...
+2026-01-04 06:37:26 - sarscope - [31mERROR[0m - Application error: 'SarScopeScraper' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 341, in main
+    app.run()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 324, in run
+    self.cleanup()
+  File "/Users/alifurkansagir/Desktop/sartech/sarscope/sarscope/main.py", line 332, in cleanup
+    self.scraper.close()
+AttributeError: 'SarScopeScraper' object has no attribute 'close'
+2026-01-14 14:19:19 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-14 14:26:53 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-14 14:26:53 - sarscope - [32mINFO[0m - Günlük otomatik tarama başlatılıyor...
+2026-01-14 14:26:53 - sarscope - [32mINFO[0m - Scanning category: https://www.trendyol.com/cok-satanlar?type=bestSeller&webCategory=103862
+2026-01-14 14:27:04 - sarscope - [32mINFO[0m - Scanning category: https://www.trendyol.com/cok-satanlar?type=bestSeller&webCategory=104168
+2026-01-14 14:27:15 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/cok-satanlar/yapi-market-bahce-oto
+2026-01-14 14:27:25 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/cok-satanlar/hirdavat
+2026-01-14 14:27:36 - sarscope - [32mINFO[0m - Scanning category: https://www.n11.com/yapi-market-ve-bahce?s=bestSeller
+2026-01-14 14:27:49 - sarscope - [33mWARNING[0m - Raporlanacak veri bulunamadı.
+2026-01-14 14:38:06 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-14 14:38:06 - sarscope - [32mINFO[0m - Günlük otomatik tarama başlatılıyor...
+2026-01-14 14:38:06 - sarscope - [32mINFO[0m - Scanning category: https://www.amazon.com.tr/b/?_encoding=UTF8&node=12707123031&bbn=12466724031&ref_=Oct_d_odnav_d_12466724031_0&pd_rd_w=APWkr&content-id=amzn1.sym.0af4f910-f596-42af-95bd-e59dfcd894f8&pf_rd_p=0af4f910-f596-42af-95bd-e59dfcd894f8&pf_rd_r=TFCASYPYM94JWGXM93P5&pd_rd_wg=Quh4m&pd_rd_r=5d1764b8-d4e7-486c-b812-664e81852d19
+2026-01-14 14:38:18 - sarscope - [32mINFO[0m - Scanning category: https://www.trendyol.com/sr?wc=103725%2C103720&wb=786%2C102598%2C146324%2C109133%2C110070%2C109187%2C149891&sst=BEST_SELLER
+2026-01-14 14:38:33 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/yapi-market-hirdavatlar-c-2147483620?siralama=coksatan
+2026-01-14 14:42:25 - sarscope - [32mINFO[0m - Trend Hunter initialized
+2026-01-14 14:42:25 - sarscope - [32mINFO[0m - Günlük otomatik tarama başlatılıyor...
+2026-01-14 14:42:25 - sarscope - [32mINFO[0m - Scanning category: https://www.amazon.com.tr/b/?_encoding=UTF8&node=12707123031&bbn=12466724031&ref_=Oct_d_odnav_d_12466724031_0&pd_rd_w=APWkr&content-id=amzn1.sym.0af4f910-f596-42af-95bd-e59dfcd894f8&pf_rd_p=0af4f910-f596-42af-95bd-e59dfcd894f8&pf_rd_r=TFCASYPYM94JWGXM93P5&pd_rd_wg=Quh4m&pd_rd_r=5d1764b8-d4e7-486c-b812-664e81852d19
+2026-01-14 14:42:37 - sarscope - [32mINFO[0m - Scanning category: https://www.trendyol.com/sr?wc=103725%2C103720&wb=786%2C102598%2C146324%2C109133%2C110070%2C109187%2C149891&sst=BEST_SELLER
+2026-01-14 14:42:49 - sarscope - [32mINFO[0m - Scanning category: https://www.hepsiburada.com/yapi-market-hirdavatlar-c-2147483620?siralama=coksatan
